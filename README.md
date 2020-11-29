@@ -1,4 +1,4 @@
-Testing system performance with and without cache memory using GEM5 simulator
+# Testing system performance with and without cache memory using GEM5 simulator
 
 
 Instaliing Gem5
@@ -26,7 +26,8 @@ run basic.py -> stores simulated results in stats.txt ->> File attached results
 
 run command - build/X86/gem5.opt <file directory of basic.py>
 
-# System with cache
+# System with cache
+
 Create a test file (cache_2_level.py) with l1 and l2 caches with sizes as 16kB,16kB and 64kB
 
 run similar to basic 
